@@ -1,0 +1,320 @@
+@media screen and (max-width: 360px) {
+    .navbar{
+        margin-right: 0%;
+    }
+    .navbar .logo img{
+        width: 15%;
+        margin-left: 10%;
+    }
+    nav{
+        margin-right: -11%;
+    }
+    nav .close-icon{
+        width: 20px;
+       
+        right: 40px;
+        top: 40px;
+        
+    }
+    nav ul li a{
+        font-size: 12px;
+    }
+    .navbar .menu-icon{
+        transform: translateX(200%);
+        top: 4.5%;
+    }
+    .header{
+        display: inline;
+        margin-top: -3%;
+    }
+    .header-top-left{
+        margin-left: -7%;
+    }
+    .header-top-left .header-para h1{
+        font-size: 26px;
+    }
+    .header-top-left .header-para h4{
+        font-size: 22px;
+    }
+    .header-top-right{
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+    .links{
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    .links i{
+        font-size: 34px;
+        margin-bottom: 5%;
+    }
+    .intro{
+        display: inline;
+
+    }
+    .intro .intro-text-box{
+        width: 90%;
+        background-color: black;
+        margin-top: 25%; 
+        margin-left: 2.5%; 
+    }
+    .intro .intro-text-box .intro-box-top{
+        height: fit-content;
+        
+    }
+    .intro .intro-text-box .intro-box-top h3{
+        color: black;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .intro .intro-text-box .intro-box-top h4{
+        font-size: 16px;
+        color: black;
+    }
+    .intro .intro-text-box .intro-box-top p{
+        font-size: 14px;
+        color: black;
+        font-weight: 600;
+    }
+    .dwn-btn{
+        margin-left: 23%;
+        padding: 5%;
+    }
+    .dwn-btn a{
+        font-size: 14px;
+    }
+    .intro-top{
+        margin-top: 15%;
+        transform: translateY(-105vh);
+        
+    }
+    .profile .intro-top hr{
+        margin-left: -10px;
+        width: 320%;
+        background-color:#288bfc;
+    }
+    .profile .intro-top h3{
+        
+        font-size: 26px;
+        font-weight: 700;
+        color: #288bfc;
+        letter-spacing: 1px;
+        font-style: italic;
+        margin-left: 8%;
+    }
+    .profile .container{
+        width: 100%;
+        height: 200px;
+       
+        margin-top: -20%;
+        padding-top: 7%;
+        padding-right: -5%;
+    }
+    .profile .container .card{
+        width: 330px;
+        
+        float: none;
+        
+        height: 180px;
+        
+        display: inline-block;
+       
+    }
+    .profile .container .card1{
+        margin-left: 4%;
+    }
+    
+    .container .card .content{
+        padding: 10px;
+        margin-top: 8%;
+        text-align: center;    
+    }
+    .container .card .content h2{
+        position: absolute;
+        top: 5px;
+        right: 36px;
+        overflow: hidden;
+        font-size: 36px;
+        color: rgba(17, 17, 17, 0.295);
+        pointer-events: none;
+    }
+    
+    .container .card .content h3{
+        color: #fff;
+        overflow: visible;
+        font-size: 2rem;
+        margin-top: 13px;
+        z-index: 1;   
+    }
+    
+    .container .card .content p{
+        color: #fff;
+        margin-top: 10px;
+        font-size: 1rem;
+        font-weight: 300;
+    } 
+    .skill{
+        min-height: 100vh;
+        width: 100%;
+        display: inline;
+    
+    }
+    .skill .skill-top-text h1{
+        font-size: 26px;
+        font-weight: 700;
+        color: #fc286f;
+        letter-spacing: 1px;
+        font-style: italic;
+        margin-left: 8%;
+    }
+    .skill .skill-text-box .content img{
+        width: 20%;  
+        
+    }
+    .skill .skill-top-text hr{
+        margin-left: -15px;
+        width: 300%;
+        background-color:#fc286f;
+    }
+    .skill .skill-text-box .left{
+        width: 35%;
+        margin-right: 12%;
+        
+        margin-left: -8%;
+    }
+    .skill .skill-text-box .middle hr{
+        height:70vh;
+        width: 0.5px;  
+    }
+    .skill .skill-text-box .right{
+        width: 35%;
+        
+        margin-left: 5%;
+    }
+    .skill .skill-text-box .left .l1{
+        margin-top: 14vh;
+    }
+    .skill .skill-text-box .left .l2{
+        margin-top: 6vh;
+    }
+    .skill .skill-text-box .content h4{
+        font-size: 20px;
+        margin-top: 1%;
+        font-weight: 300;
+    }
+    .skill .skill-text-box .card{
+        width: 150px;
+        box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+        border-radius: 15px;
+        background: #619cd3;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.5);
+        border-left: 1px solid rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(5px);
+        height: 17vh;
+    }
+    .project{
+        display: inline;
+    }
+    .project-top-right{
+        margin-top: 15%;
+        margin-left: 9%;
+        transform: translateY(-360vh);
+    }
+    .project .project-top-right .h1{
+        font-size: 26px;
+        font-weight: 700;
+        color: #fc286f;
+        letter-spacing: 1px;
+        font-style: italic;
+        margin-left: 7%;
+    }
+    .project .project-top-right hr{
+        margin-left: -15px;
+        width: 300%;
+        background-color:#fc286f;
+    }
+    .project-top-left{
+        margin-top: 20vh;
+        width: 100%;
+    }
+    .project .project-top-left #myBtnContainer{
+        display: inline-block;
+        width: 130%;
+        margin-left: 0%;
+       
+        padding: 5%;
+    }
+    .project .project-top-left #myBtnContainer .btn{
+        padding: 10px 19px;
+        margin: 6px 6px;
+        font-size:15px ;
+    } 
+    .project .project-top-left .container {
+        overflow: hidden;
+        width: 120%;
+        
+        margin:5%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .filterDiv{
+        width: 250px;
+        margin-left: 13%;
+        height: 320px;
+    }
+    .project .project-top-left .container img{
+        width: 250px;
+        height: 320px;
+    }
+    .project .project-top-left .container .overlay .preview{
+        margin-top: 50%;
+        height: 8px;
+    }
+    .project .project-top-left .container .overlay h2{
+        font-size: 22px;
+        margin-top: 15%;
+    }
+    .project .project-top-left .container .overlay a{
+       font-size: 19px;
+    }
+    .question{
+        min-height: 35vh;
+        margin-top: 3%;
+        width: 100%;
+        padding-top: 10%;
+        padding-bottom: 5%;
+        background-color: #080808be;
+    }
+    .que-box{
+        width: 90%;
+        margin-left: 5%;
+        margin-bottom: 3%;
+        
+    }
+    .collapsible {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 36px;
+    }
+    .que-box i{
+        display: none;
+
+    }
+    .que-box button{
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        font-size: 19px;
+    }
+    .que-box .content {
+        background-color: #ffffff;
+    }
+}
